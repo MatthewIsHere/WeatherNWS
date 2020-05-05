@@ -1,3 +1,0 @@
-include weathergovapi/packageData/counties.json
-include weathergovapi/packageData/SAME.json
-include weathergovapi/packageData/zone.json

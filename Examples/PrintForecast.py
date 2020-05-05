@@ -1,8 +1,9 @@
 """This Example Will Print The Forecast To The Console"""
-from weatherapi import forecast
+from WeatherAPI import API
 import time
-
+api = API("Test User") #PUT IDENTIFICATION HERE
 while True:
-    forecast = forecast("aiken", "sc")
-    print(forecast.CountyName)
-    print(forecast.forecast[0].detailedForecast)
+    forecast = api.forecast("aiken", "sc")
+    print(forecast["county"])
+    print(forecast["forecast"][0]["detailedForecast"])
+    time.sleep(60)
