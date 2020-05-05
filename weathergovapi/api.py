@@ -1,8 +1,8 @@
 import requests as rq
 import json
-with open("counties.json") as file:
+with open("packageData/counties.json") as file:
     countydict = json.load(file)
-with open("zone.json") as file:
+with open("packageData/zone.json") as file:
     zonedict = json.load(file)
 class WeatherApi:
     def __init__(self, userAgent):
