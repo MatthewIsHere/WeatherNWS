@@ -1,5 +1,5 @@
 """This Example Will Print The Forecast To The Console"""
-from WeatherAPI import API
+from WeatherNWS import API
 import time
 api = API("Test User") #PUT IDENTIFICATION HERE
 while True:
