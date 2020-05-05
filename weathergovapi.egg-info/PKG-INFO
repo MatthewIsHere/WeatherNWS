@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: weathergovapi
+Version: 1
+Summary: Weather Functions and Data From NWS
+Home-page: https://github.com/MatthewIsHere/Weather.Gov-APi
+Author: Matthew Lyon
+Author-email: matthew@matthewlyon.net
+License: MIT
+Description: # Weather.Gov-APi
+        A Python Library For Getting Watches/Warnings and Forecasts From National Weather Service
+        
+Platform: UNKNOWN
