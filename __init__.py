@@ -1,3 +1,1 @@
-import api as Weatherapi
-
-API = Weatherapi
+from .api import API
