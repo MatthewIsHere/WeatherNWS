@@ -57,8 +57,3 @@ class WeatherApi:
             }
             events.append(alertDictionary)
         return events
-
-
-
-api = WeatherApi("(MatthewLyon-PythonAlertDetector, matthew@matthewlyon.net)")
-print(api.alerts("pulaski", "mo"))
