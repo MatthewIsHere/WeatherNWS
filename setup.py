@@ -5,8 +5,9 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="WeatherNWS",
-    version="0.0.5",
+    version="0.0.6",
     author="Matthew Lyon",
+    include_package_data=True,
     author_email="matthew@matthewlyon.net",
     description="Weather Functions and Data From NWS",
     long_description=long_description,
