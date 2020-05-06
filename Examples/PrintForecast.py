@@ -1,4 +1,5 @@
 """This Example Will Print The Forecast To The Console"""
+"""First pip install WeatherNWS"""
 from WeatherNWS import API
 import time
 api = API("Test User") #PUT IDENTIFICATION HERE

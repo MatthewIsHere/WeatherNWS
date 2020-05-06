@@ -5,13 +5,13 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="WeatherNWS",
-    version="0.0.1",
+    version="0.0.5",
     author="Matthew Lyon",
     author_email="matthew@matthewlyon.net",
     description="Weather Functions and Data From NWS",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/MatthewIsHere/Weather.Gov-APi",
+    url="https://github.com/MatthewIsHere/WeatherNWS",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
