@@ -1,15 +1,14 @@
 import requests as rq
 import os
 import json
-"""
 Countyfile = os.path.join(os.path.dirname(__file__), "counties.json")
 Zonefile = os.path.join(os.path.dirname(__file__), "zone.json")
 SAMEfile = os.path.join(os.path.dirname(__file__), "SAME.json")
-"""
 
-with open("counties.json") as file:
+
+with open(Countyfile) as file:
     countydict = json.load(file)
-with open("zone.json") as file:
+with open(Zonefile) as file:
     zonedict = json.load(file)
 class API:
     def __init__(self, userAgent):
